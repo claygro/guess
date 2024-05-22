@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.number {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+#num {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: 40px;
+}
+#holder {
+  border: 1px solid red;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+#btn {
+  margin: 40px 0;
+  background-color: none;
+  border: none;
+  padding: 20px 50px;
+  background-color: yellow;
+  border-radius: 9px;
+  cursor: pointer;
+}
+#any {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+body {
+  background-image: linear-gradient(to right, red, blue, purple);
+}
+.last {
+  color: white;
+}
